@@ -333,6 +333,25 @@ footer {
 
 }
 
+@media only screen and (max-width: 550px) {
+  .project {
+    min-width: 100%;
+    border-radius: 0;
+    margin: 0;
+  }
+
+  .project-img {
+    border-top-left-radius: 0;
+    -webkit-border-top-left-radius: 0;
+    -o-border-top-left-radius: 0;
+    -moz-border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    -o-border-top-right-radius: 0;
+    -moz-border-top-right-radius: 0;
+  }
+}
+
 @media only screen and (max-width: 380px) {
   footer p {
     font-size: 0.9rem;
